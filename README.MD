@@ -1,0 +1,1 @@
+Small example with Node JS and Handlebars template engine
