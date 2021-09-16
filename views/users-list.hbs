@@ -1,0 +1,13 @@
+    {{#if areUsers}}
+        <ul>
+            {{#each users}}
+                <li>
+                    <p>{{this.userName}}</p>
+                </li>
+            {{/each}}
+        </ul>
+    {{else}}
+        <p>No users, start adding one</p>
+    {{/if}}
+</body>
+</html>
